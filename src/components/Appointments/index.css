@@ -1,0 +1,115 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  height: 100vh;
+  background-size: cover;
+  overflow: scroll;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+.Appointments-container {
+  background-color: #ffffff;
+  border-radius: 15px;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  width: 80vw;
+  margin-top: 40px;
+}
+.top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.details-container {
+  display: flex;
+  flex-direction: column;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.add-button {
+  align-self: flex-start;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0%;
+  flex-wrap: wrap;
+}
+.heading {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+}
+.input-title {
+  color: black;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.add-button {
+  margin-top: 20px;
+  padding: 5px;
+  background-color: #8b5cf6;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Roboto';
+  cursor: pointer;
+  font-size: 14px;
+}
+.appointment-image {
+  max-width: 30vw;
+}
+.button-without-filter {
+  color: black;
+  background-color: transparent;
+  border: solid 1px black;
+  border-radius: 10px;
+  /* padding: 5px; */
+  font-family: 'Roboto';
+  font-size: 14px;
+  cursor: pointer;
+  height: 30px;
+}
+.button-with-filter {
+  color: white;
+  background-color: #8b5cf6;
+  border: solid 1px black;
+  border-radius: 10px;
+  /* padding: 5px; */
+  font-family: 'Roboto';
+  font-size: 14px;
+  cursor: pointer;
+  height: 30px;
+}
+.hr-line {
+  border: solid red 1px;
+  width: 100;
+}
+.heading-and-star {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 576px) {
+  .appointment-image {
+    display: none;
+  }
+  ul {
+    flex-direction: column;
+  }
+}
+.appointments-subheading {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #171f46;
+  font-weight: bold;
+}
