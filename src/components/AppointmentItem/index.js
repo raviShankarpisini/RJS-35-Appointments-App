@@ -1,7 +1,7 @@
+import React from 'react'
 import './index.css'
 
-const AppointmentIem = props => {
-  const {appointmentDetails, toggleIsStarred} = props
+const AppointmentIem = ({appointmentDetails, toggleIsStarred}) => {
   const {id, title, date, isStarred} = appointmentDetails
   const starImgUrl = isStarred
     ? 'https://assets.ccbp.in/frontend/react-js/appointments-app/filled-star-img.png'
@@ -30,3 +30,4 @@ const AppointmentIem = props => {
 }
 
 export default AppointmentIem
+
